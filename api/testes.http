@@ -1,0 +1,16 @@
+POST http://localhost:8080/dividir
+Content-Type: application/json
+
+{
+    "numero1":10000,
+    "numero2":23
+}
+
+####
+
+POST http://localhost:8080/consultar-cep
+Content-Type: application/json
+
+{
+    "cep": "89201215"
+}
